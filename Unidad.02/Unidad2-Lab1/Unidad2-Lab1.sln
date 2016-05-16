@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sintaxis1", "Unidad2-Lab1\Sintaxis1.csproj", "{08B48EA7-1F8D-45B4-BC2D-065283DBD3C7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sintaxis2", "Sintaxis2\Sintaxis2.csproj", "{5BDDBDB4-7DF6-442C-AF20-947497DA5DDE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sintaxis3", "Sintaxis3\Sintaxis3.csproj", "{B69A980B-748A-4B0E-9914-347894254DDB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08B48EA7-1F8D-45B4-BC2D-065283DBD3C7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08B48EA7-1F8D-45B4-BC2D-065283DBD3C7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08B48EA7-1F8D-45B4-BC2D-065283DBD3C7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08B48EA7-1F8D-45B4-BC2D-065283DBD3C7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5BDDBDB4-7DF6-442C-AF20-947497DA5DDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5BDDBDB4-7DF6-442C-AF20-947497DA5DDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5BDDBDB4-7DF6-442C-AF20-947497DA5DDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5BDDBDB4-7DF6-442C-AF20-947497DA5DDE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B69A980B-748A-4B0E-9914-347894254DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B69A980B-748A-4B0E-9914-347894254DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B69A980B-748A-4B0E-9914-347894254DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B69A980B-748A-4B0E-9914-347894254DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
