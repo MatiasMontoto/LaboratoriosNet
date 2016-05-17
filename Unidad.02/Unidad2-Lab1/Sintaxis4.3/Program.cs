@@ -10,32 +10,32 @@ namespace Sintaxis4._3
     {
         static void Main(string[] args)
         {
-            int[] e;
+            int[] serie;
             Console.Write("Ingrese cantidad de numeros de la serie: ");
-            int c = Int32.Parse(Console.ReadLine());
+            int n = Int32.Parse(Console.ReadLine());
             int sum = 0;
-            e = new int[c];
-            e[0] = 1;
-            e[1] = 1;
+            serie = new int[n];
+            serie[0] = 1;
+            serie[1] = 1;
 
-            for (int i = 2; i < c; i++)
+            for (int i = 2; i < n; i++)
             {
-                e[i] = e[i - 2] + e[i - 1];
+                serie[i] = serie[i - 2] + serie[i - 1];
             }
 
-            Console.WriteLine("Serie hasta " + c + ": " );
-            for (int i = 0; i < c; i++)
+            Console.WriteLine("Serie hasta " + n + ": " );
+            for (int i = 0; i < n; i++)
             {
-                Console.Write(e[i] + " ");
+                Console.Write(serie[i] + " ");
             }
 
             Console.WriteLine();
-            for (int i = 0; i < c; i++)
+            for (int i = 0; i < n; i++)
             {
-                sum = sum + e[i];
+                sum = sum + serie[i];
             }
 
-            Console.Write("La suma de los primeros " + c + " numeros de la serie de fibonacci es: " + sum);
+            Console.Write("La suma de los primeros " + n + " numeros de la serie de fibonacci es: " + sum);
 
             Console.ReadKey();
         }
