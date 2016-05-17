@@ -32,7 +32,7 @@
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.txtUsuario = new System.Windows.Forms.TextBox();
-            this.textPass = new System.Windows.Forms.TextBox();
+            this.txtPass = new System.Windows.Forms.TextBox();
             this.btnIngresar = new System.Windows.Forms.Button();
             this.lnkOlvidaPass = new System.Windows.Forms.LinkLabel();
             this.SuspendLayout();
@@ -72,12 +72,13 @@
             this.txtUsuario.Size = new System.Drawing.Size(208, 20);
             this.txtUsuario.TabIndex = 3;
             // 
-            // textPass
+            // txtPass
             // 
-            this.textPass.Location = new System.Drawing.Point(131, 126);
-            this.textPass.Name = "textPass";
-            this.textPass.Size = new System.Drawing.Size(208, 20);
-            this.textPass.TabIndex = 4;
+            this.txtPass.Location = new System.Drawing.Point(131, 126);
+            this.txtPass.Name = "txtPass";
+            this.txtPass.PasswordChar = '*';
+            this.txtPass.Size = new System.Drawing.Size(208, 20);
+            this.txtPass.TabIndex = 4;
             // 
             // btnIngresar
             // 
@@ -87,6 +88,7 @@
             this.btnIngresar.TabIndex = 5;
             this.btnIngresar.Text = "Ingresar";
             this.btnIngresar.UseVisualStyleBackColor = true;
+            this.btnIngresar.Click += new System.EventHandler(this.btnIngresar_Click);
             // 
             // lnkOlvidaPass
             // 
@@ -97,6 +99,7 @@
             this.lnkOlvidaPass.TabIndex = 6;
             this.lnkOlvidaPass.TabStop = true;
             this.lnkOlvidaPass.Text = "Olvidé mi contraseña";
+            this.lnkOlvidaPass.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.lnkOlvidaPass_LinkClicked);
             // 
             // formLogin
             // 
@@ -105,7 +108,7 @@
             this.ClientSize = new System.Drawing.Size(351, 230);
             this.Controls.Add(this.lnkOlvidaPass);
             this.Controls.Add(this.btnIngresar);
-            this.Controls.Add(this.textPass);
+            this.Controls.Add(this.txtPass);
             this.Controls.Add(this.txtUsuario);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
@@ -123,7 +126,7 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtUsuario;
-        private System.Windows.Forms.TextBox textPass;
+        private System.Windows.Forms.TextBox txtPass;
         private System.Windows.Forms.Button btnIngresar;
         private System.Windows.Forms.LinkLabel lnkOlvidaPass;
     }
