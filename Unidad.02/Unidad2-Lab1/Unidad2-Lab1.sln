@@ -21,6 +21,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sintaxis4.5", "Sintaxis4.5\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sintaxis4.6", "Sintaxis4.6\Sintaxis4.6.csproj", "{87B6182A-D496-4A51-8E18-4B8500249FA0}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sintaxis4.7", "Sintaxis4.7\Sintaxis4.7.csproj", "{E5511527-2181-4B8B-A7AF-6B4283CA985F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +65,10 @@ Global
 		{87B6182A-D496-4A51-8E18-4B8500249FA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{87B6182A-D496-4A51-8E18-4B8500249FA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{87B6182A-D496-4A51-8E18-4B8500249FA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5511527-2181-4B8B-A7AF-6B4283CA985F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5511527-2181-4B8B-A7AF-6B4283CA985F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5511527-2181-4B8B-A7AF-6B4283CA985F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5511527-2181-4B8B-A7AF-6B4283CA985F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
