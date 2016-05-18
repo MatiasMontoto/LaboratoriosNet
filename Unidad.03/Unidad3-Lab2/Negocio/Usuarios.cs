@@ -30,6 +30,23 @@ namespace Negocio
         {
             this.Conn = new SqlConnection("Data Source=localhost;Initial Catalog=academia;Integrated Security=true;");
 
+            /*
+             * Este connection string es para conectarse con la base de datos academia en el servidor
+             * del departamento sistemas desde una PC de los laboratorios de sistemas,
+             * 
+             * "Data Source=serverisi;Initial Catalog=academia;Integrated Security=false;user=net;password=net;"
+             * 
+             * si realiza este Laboratorio desde su PC puede probar el siguiente connection string
+             * 
+             * "Data Source=localhost;Initial Catalog=academia;Integrated Security=true;"
+             * 
+             * Si realiza esta práctica sobre el MS SQL SERVER 2005 Express Edition entonce debe 
+             * utilizar el siguiente connection string
+             * 
+             * "Data Source=localhost\SQLEXPRESS;Initial Catalog=academia;Integrated Security=true;"
+             */
+
+
             this.daUsuarios = new SqlDataAdapter("select * from usuarios", this.Conn);
 
             this.daUsuarios.UpdateCommand = new SqlCommand( " UPDATE usuarios " +
